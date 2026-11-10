@@ -1,0 +1,65 @@
+{
+  "_comment": "架空のダミーデータ。Places API (New) searchText の応答と同じ形。一致しない検索語には先頭を返す。",
+  "places": [
+    {
+      "id": "mock_11",
+      "displayName": {
+        "text": "海辺の大展望台",
+        "languageCode": "ja"
+      },
+      "location": {
+        "latitude": 34.685,
+        "longitude": 135.194
+      },
+      "primaryType": "tourist_attraction",
+      "types": [
+        "tourist_attraction",
+        "observation_deck",
+        "point_of_interest"
+      ],
+      "userRatingCount": 9800,
+      "formattedAddress": "（架空の住所）",
+      "rating": 4.3
+    },
+    {
+      "id": "mock_12",
+      "displayName": {
+        "text": "駅前の大きな神社",
+        "languageCode": "ja"
+      },
+      "location": {
+        "latitude": 34.695,
+        "longitude": 135.194
+      },
+      "primaryType": "shinto_shrine",
+      "types": [
+        "shinto_shrine",
+        "tourist_attraction",
+        "place_of_worship"
+      ],
+      "userRatingCount": 15400,
+      "formattedAddress": "（架空の住所）",
+      "rating": 4.4
+    },
+    {
+      "id": "mock_09",
+      "displayName": {
+        "text": "異国の洋館公園",
+        "languageCode": "ja"
+      },
+      "location": {
+        "latitude": 34.696,
+        "longitude": 135.189
+      },
+      "primaryType": "park",
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest"
+      ],
+      "userRatingCount": 760,
+      "formattedAddress": "（架空の住所）",
+      "rating": 4.1
+    }
+  ]
+}

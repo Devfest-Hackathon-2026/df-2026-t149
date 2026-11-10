@@ -32,3 +32,15 @@ Thumbs.db
 .vscode/*
 !.vscode/extensions.json
 *.log
+
+# Dart / Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+.firebase/
+.firebaserc
+app/android/local.properties
+app/web/maps_config.js
+app/dart_defines.local.json
+app/assets/config/firebase.local.json

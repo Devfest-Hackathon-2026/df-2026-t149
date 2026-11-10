@@ -1,0 +1,93 @@
+{
+  "source": "mock",
+  "origin": {
+    "id": "mock_11",
+    "name": "海辺の大展望台",
+    "lat": 34.685,
+    "lng": 135.194,
+    "address": "（架空の住所）",
+    "primaryType": "tourist_attraction",
+    "types": [
+      "tourist_attraction",
+      "observation_deck",
+      "point_of_interest"
+    ],
+    "userRatingCount": 9800,
+    "rating": 4.3,
+    "obscurity": 0,
+    "title": "famous"
+  },
+  "alternatives": [
+    {
+      "id": "mock_07",
+      "name": "高架下のギャラリー",
+      "lat": 34.688,
+      "lng": 135.191,
+      "address": "（架空の住所）",
+      "primaryType": "art_gallery",
+      "types": [
+        "art_gallery",
+        "tourist_attraction",
+        "point_of_interest"
+      ],
+      "userRatingCount": 90,
+      "rating": 4.3,
+      "obscurity": 47,
+      "title": "hidden",
+      "distanceMeters": 432
+    },
+    {
+      "id": "mock_13",
+      "name": "運河沿いの小さな庭園",
+      "lat": 34.689,
+      "lng": 135.199,
+      "address": "（架空の住所）",
+      "primaryType": "garden",
+      "types": [
+        "garden",
+        "point_of_interest"
+      ],
+      "userRatingCount": 64,
+      "rating": 4.2,
+      "obscurity": 51,
+      "title": "hidden",
+      "distanceMeters": 638
+    },
+    {
+      "id": "mock_14",
+      "name": "旧居留地の記念碑",
+      "lat": 34.69,
+      "lng": 135.203,
+      "address": "（架空の住所）",
+      "primaryType": "historical_landmark",
+      "types": [
+        "historical_landmark",
+        "tourist_attraction",
+        "point_of_interest"
+      ],
+      "userRatingCount": 180,
+      "rating": 4.1,
+      "obscurity": 39,
+      "title": "known",
+      "distanceMeters": 993
+    },
+    {
+      "id": "mock_05",
+      "name": "町工場の資料室",
+      "lat": 34.694,
+      "lng": 135.197,
+      "address": "（架空の住所）",
+      "primaryType": "museum",
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest"
+      ],
+      "userRatingCount": 26,
+      "rating": 4.6,
+      "obscurity": 61,
+      "title": "hidden",
+      "distanceMeters": 1038
+    }
+  ]
+}

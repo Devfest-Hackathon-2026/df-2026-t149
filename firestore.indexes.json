@@ -1,0 +1,14 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "timeline",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "public", "order": "ASCENDING" },
+        { "fieldPath": "geo", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

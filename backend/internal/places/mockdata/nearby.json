@@ -1,0 +1,283 @@
+{
+  "_comment": "架空のダミーデータ。Places API (New) searchNearby の応答と同じ形。本物の応答を貼らないこと。",
+  "places": [
+    {
+      "id": "mock_01",
+      "displayName": {
+        "text": "坂の上の小さな祠",
+        "languageCode": "ja"
+      },
+      "location": {
+        "latitude": 34.697,
+        "longitude": 135.192
+      },
+      "primaryType": "shinto_shrine",
+      "types": [
+        "shinto_shrine",
+        "place_of_worship",
+        "point_of_interest"
+      ],
+      "userRatingCount": 0,
+      "formattedAddress": "（架空の住所）"
+    },
+    {
+      "id": "mock_02",
+      "displayName": {
+        "text": "路地裏の古書喫茶",
+        "languageCode": "ja"
+      },
+      "location": {
+        "latitude": 34.691,
+        "longitude": 135.193
+      },
+      "primaryType": "cafe",
+      "types": [
+        "cafe",
+        "book_store",
+        "food",
+        "point_of_interest"
+      ],
+      "userRatingCount": 3,
+      "formattedAddress": "（架空の住所）",
+      "rating": 4.8
+    },
+    {
+      "id": "mock_03",
+      "displayName": {
+        "text": "旧水道の見晴らし台",
+        "languageCode": "ja"
+      },
+      "location": {
+        "latitude": 34.699,
+        "longitude": 135.186
+      },
+      "primaryType": "park",
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest"
+      ],
+      "userRatingCount": 7,
+      "formattedAddress": "（架空の住所）",
+      "rating": 4.5
+    },
+    {
+      "id": "mock_04",
+      "displayName": {
+        "text": "石垣の残る小公園",
+        "languageCode": "ja"
+      },
+      "location": {
+        "latitude": 34.69,
+        "longitude": 135.185
+      },
+      "primaryType": "park",
+      "types": [
+        "park",
+        "point_of_interest"
+      ],
+      "userRatingCount": 18,
+      "formattedAddress": "（架空の住所）",
+      "rating": 4.1
+    },
+    {
+      "id": "mock_05",
+      "displayName": {
+        "text": "町工場の資料室",
+        "languageCode": "ja"
+      },
+      "location": {
+        "latitude": 34.694,
+        "longitude": 135.197
+      },
+      "primaryType": "museum",
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest"
+      ],
+      "userRatingCount": 26,
+      "formattedAddress": "（架空の住所）",
+      "rating": 4.6
+    },
+    {
+      "id": "mock_06",
+      "displayName": {
+        "text": "山すその寺の庭",
+        "languageCode": "ja"
+      },
+      "location": {
+        "latitude": 34.7,
+        "longitude": 135.195
+      },
+      "primaryType": "buddhist_temple",
+      "types": [
+        "buddhist_temple",
+        "place_of_worship",
+        "tourist_attraction"
+      ],
+      "userRatingCount": 55,
+      "formattedAddress": "（架空の住所）",
+      "rating": 4.4
+    },
+    {
+      "id": "mock_07",
+      "displayName": {
+        "text": "高架下のギャラリー",
+        "languageCode": "ja"
+      },
+      "location": {
+        "latitude": 34.688,
+        "longitude": 135.191
+      },
+      "primaryType": "art_gallery",
+      "types": [
+        "art_gallery",
+        "tourist_attraction",
+        "point_of_interest"
+      ],
+      "userRatingCount": 90,
+      "formattedAddress": "（架空の住所）",
+      "rating": 4.3
+    },
+    {
+      "id": "mock_08",
+      "displayName": {
+        "text": "港の見える喫茶店",
+        "languageCode": "ja"
+      },
+      "location": {
+        "latitude": 34.687,
+        "longitude": 135.188
+      },
+      "primaryType": "cafe",
+      "types": [
+        "cafe",
+        "food",
+        "point_of_interest"
+      ],
+      "userRatingCount": 240,
+      "formattedAddress": "（架空の住所）",
+      "rating": 4.2
+    },
+    {
+      "id": "mock_09",
+      "displayName": {
+        "text": "異国の洋館公園",
+        "languageCode": "ja"
+      },
+      "location": {
+        "latitude": 34.696,
+        "longitude": 135.189
+      },
+      "primaryType": "park",
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest"
+      ],
+      "userRatingCount": 760,
+      "formattedAddress": "（架空の住所）",
+      "rating": 4.1
+    },
+    {
+      "id": "mock_10",
+      "displayName": {
+        "text": "商店街の老舗食堂",
+        "languageCode": "ja"
+      },
+      "location": {
+        "latitude": 34.692,
+        "longitude": 135.187
+      },
+      "primaryType": "restaurant",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest"
+      ],
+      "userRatingCount": 1500,
+      "formattedAddress": "（架空の住所）",
+      "rating": 4.0
+    },
+    {
+      "id": "mock_11",
+      "displayName": {
+        "text": "海辺の大展望台",
+        "languageCode": "ja"
+      },
+      "location": {
+        "latitude": 34.685,
+        "longitude": 135.194
+      },
+      "primaryType": "tourist_attraction",
+      "types": [
+        "tourist_attraction",
+        "observation_deck",
+        "point_of_interest"
+      ],
+      "userRatingCount": 9800,
+      "formattedAddress": "（架空の住所）",
+      "rating": 4.3
+    },
+    {
+      "id": "mock_12",
+      "displayName": {
+        "text": "駅前の大きな神社",
+        "languageCode": "ja"
+      },
+      "location": {
+        "latitude": 34.695,
+        "longitude": 135.194
+      },
+      "primaryType": "shinto_shrine",
+      "types": [
+        "shinto_shrine",
+        "tourist_attraction",
+        "place_of_worship"
+      ],
+      "userRatingCount": 15400,
+      "formattedAddress": "（架空の住所）",
+      "rating": 4.4
+    },
+    {
+      "id": "mock_13",
+      "displayName": {
+        "text": "運河沿いの小さな庭園",
+        "languageCode": "ja"
+      },
+      "location": {
+        "latitude": 34.689,
+        "longitude": 135.199
+      },
+      "primaryType": "garden",
+      "types": [
+        "garden",
+        "point_of_interest"
+      ],
+      "userRatingCount": 64,
+      "formattedAddress": "（架空の住所）",
+      "rating": 4.2
+    },
+    {
+      "id": "mock_14",
+      "displayName": {
+        "text": "旧居留地の記念碑",
+        "languageCode": "ja"
+      },
+      "location": {
+        "latitude": 34.69,
+        "longitude": 135.203
+      },
+      "primaryType": "historical_landmark",
+      "types": [
+        "historical_landmark",
+        "tourist_attraction",
+        "point_of_interest"
+      ],
+      "userRatingCount": 180,
+      "formattedAddress": "（架空の住所）",
+      "rating": 4.1
+    }
+  ]
+}
