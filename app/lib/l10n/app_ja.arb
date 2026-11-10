@@ -1,0 +1,1293 @@
+{
+  "@@locale": "ja",
+  "appTitle": "ウラミチ",
+  "tabCheckin": "チェックイン",
+  "syncSentOne": "{placeName}は {order} 人目でした",
+  "@syncSentOne": {
+    "placeholders": {
+      "placeName": {
+        "type": "Object"
+      },
+      "order": {
+        "type": "Object"
+      }
+    }
+  },
+  "syncSentMany": "{count} 件のチェックインを送信しました",
+  "@syncSentMany": {
+    "placeholders": {
+      "count": {
+        "type": "Object"
+      }
+    }
+  },
+  "syncRejected": "{rejected} 件の記録を送信できませんでした",
+  "@syncRejected": {
+    "placeholders": {
+      "rejected": {
+        "type": "Object"
+      }
+    }
+  },
+  "startupFailedTitle": "ログインを準備できませんでした",
+  "retry": "もう一度試す",
+  "shareTextPlace": "「{placeName}」に",
+  "@shareTextPlace": {
+    "placeholders": {
+      "placeName": {
+        "type": "Object"
+      }
+    }
+  },
+  "shareTextCheckedIn": "チェックインしました！",
+  "shareTextCheckedInOrder": "{order}人目の訪問者としてチェックインしました！",
+  "@shareTextCheckedInOrder": {
+    "placeholders": {
+      "order": {
+        "type": "Object"
+      }
+    }
+  },
+  "shareTextFirst": "一番乗り🚩",
+  "shareTextComment": "\n「{c}」",
+  "@shareTextComment": {
+    "placeholders": {
+      "c": {
+        "type": "Object"
+      }
+    }
+  },
+  "shareTextFooter": "\nみんなの知らない場所へ #ウラミチ",
+  "shareTargetX": "𝕏 に投稿",
+  "shareTargetLine": "LINE で送る",
+  "errorLogIdUnknown": "送信済みの記録の ID がわかりません。一覧を読み直してから直してください",
+  "errorSaveLocal": "記録を端末に保存できませんでした。もう一度やり直してください",
+  "errorViewMessage": "この部分を表示できませんでした",
+  "favoriteRemoved": "お気に入りから外しました",
+  "favoriteAdded": "お気に入りに追加しました",
+  "favoriteAddedNamed": "「{name}」をお気に入りに追加しました",
+  "@favoriteAddedNamed": {
+    "placeholders": {
+      "name": {
+        "type": "Object"
+      }
+    }
+  },
+  "favoriteRemoveTooltip": "お気に入りから外す",
+  "favoriteAddTooltip": "お気に入りに入れる",
+  "zoomIn": "拡大",
+  "zoomOut": "縮小",
+  "zoomLever": "ズームのレバー",
+  "zoomLevel": "ズーム {value}",
+  "@zoomLevel": {
+    "placeholders": {
+      "value": {
+        "type": "Object"
+      }
+    }
+  },
+  "mockData": "ダミーデータ",
+  "reviewCountLabel": "レビュー {value}件",
+  "@reviewCountLabel": {
+    "placeholders": {
+      "value": {
+        "type": "Object"
+      }
+    }
+  },
+  "placeTypeArtGallery": "美術館",
+  "placeTypeBuddhistTemple": "寺",
+  "placeTypeCafe": "カフェ",
+  "placeTypeCoffeeShop": "コーヒー店",
+  "placeTypeCulturalCenter": "文化施設",
+  "placeTypeGarden": "庭園",
+  "placeTypeHikingArea": "ハイキングコース",
+  "placeTypeMarket": "市場",
+  "placeTypeMuseum": "博物館",
+  "placeTypeObservationDeck": "展望台",
+  "placeTypePark": "公園",
+  "placeTypeRestaurant": "飲食店",
+  "placeTypeShrine": "神社",
+  "placeTypeShoppingMall": "ショッピングモール",
+  "placeTypeStore": "店",
+  "placeTypeTeaHouse": "茶屋",
+  "placeTypeTouristAttraction": "観光名所",
+  "placePhotosLabel": "場所の写真 {count}枚",
+  "@placePhotosLabel": {
+    "placeholders": {
+      "count": {
+        "type": "Object"
+      }
+    }
+  },
+  "photoCreditGoogle": "写真：Google マップ",
+  "photoCreditAuthor": "写真：{name}（Google マップ）",
+  "@photoCreditAuthor": {
+    "placeholders": {
+      "name": {
+        "type": "Object"
+      }
+    }
+  },
+  "reviewCountBarLabel": "レビュー {value}件、有名スポットは {value2}件",
+  "@reviewCountBarLabel": {
+    "placeholders": {
+      "value": {
+        "type": "Object"
+      },
+      "value2": {
+        "type": "Object"
+      }
+    }
+  },
+  "genreWorship": "寺社",
+  "genreFood": "飲食",
+  "genreNature": "公園",
+  "genreCulture": "美術館",
+  "genreView": "展望",
+  "genreShopping": "買い物",
+  "stampLabel": "{caption}のチェックインスタンプ、{label}",
+  "@stampLabel": {
+    "placeholders": {
+      "caption": {
+        "type": "Object"
+      },
+      "label": {
+        "type": "Object"
+      }
+    }
+  },
+  "stampFirst": "一番乗り",
+  "starRatingLabel": "★{value}",
+  "@starRatingLabel": {
+    "placeholders": {
+      "value": {
+        "type": "Object"
+      }
+    }
+  },
+  "starInputLabel": "★{i}、{value}",
+  "@starInputLabel": {
+    "placeholders": {
+      "i": {
+        "type": "Object"
+      },
+      "value": {
+        "type": "Object"
+      }
+    }
+  },
+  "starInputPrompt": "★で評価してください",
+  "errorServerTimeout": "サーバーから応答がありませんでした",
+  "errorServerUnreachable": "サーバーに接続できませんでした",
+  "percentUnderOne": "1%未満",
+  "verdictHit": "当たり",
+  "verdictMiss": "ハズレ",
+  "stars5": "最高！",
+  "stars4": "よかった",
+  "stars3": "ふつう",
+  "stars2": "まあまあ",
+  "stars1": "自分には合わなかった",
+  "titleUntrodden": "未踏",
+  "titleHidden": "穴場",
+  "titleKnown": "定番",
+  "titleFamous": "超有名",
+  "genreOther": "その他",
+  "iconHiking": "歩く人",
+  "iconPets": "足あと",
+  "iconCafe": "コーヒー",
+  "iconRamen": "ラーメン",
+  "iconCamera": "カメラ",
+  "iconBike": "自転車",
+  "iconTrain": "電車",
+  "iconLeaf": "葉っぱ",
+  "iconMountain": "山",
+  "iconWaves": "波",
+  "iconTemple": "お寺",
+  "iconTree": "木",
+  "errorProfileLoad": "プロフィールを読み込めませんでした。通信状況を確認して、もう一度お試しください",
+  "errorLoginPopup": "ログインの画面を開けませんでした。ブラウザでポップアップを許可して、もう一度お試しください",
+  "errorLoginNetwork": "ログインできませんでした。通信状況を確認して、もう一度お試しください",
+  "errorLoginCode": "ログインできませんでした（{code}）。もう一度お試しください",
+  "@errorLoginCode": {
+    "placeholders": {
+      "code": {
+        "type": "Object"
+      }
+    }
+  },
+  "errorGeneric": "エラーが起きました",
+  "errorLoginRequired": "ログインしてからやり直してください",
+  "shareOpenFailed": "{label}画面を開けませんでした",
+  "@shareOpenFailed": {
+    "placeholders": {
+      "label": {
+        "type": "Object"
+      }
+    }
+  },
+  "shareImageFailed": "画像を作れませんでした",
+  "shareInstagramHint": "共有の画面で Instagram を選んでください。文はコピーしたので、投稿で貼り付けられます",
+  "shareSheetFailed": "共有の画面を開けませんでした",
+  "shareTextCopied": "シェアする文をコピーしました",
+  "celebrationTitle": "チェックイン完了",
+  "close": "閉じる",
+  "stampRecorded": "記録",
+  "orderLabel": "{order}人目",
+  "@orderLabel": {
+    "placeholders": {
+      "order": {
+        "type": "Object"
+      }
+    }
+  },
+  "stampRevisit": "また来た",
+  "stampFirstVisit": "はじめて",
+  "hashtag": "#ウラミチ",
+  "checkinPendingOrder": "通信できるようになってから、データを照合して何人目かが決定されます",
+  "quotedComment": "「{comment}」",
+  "@quotedComment": {
+    "placeholders": {
+      "comment": {
+        "type": "Object"
+      }
+    }
+  },
+  "secretAchievementUnlocked": "シークレット実績を解除！",
+  "achievementUnlocked": "実績を解除！",
+  "shareHeading": "みんなに教える",
+  "shareInstagram": "Instagram で共有",
+  "shareCopyText": "テキストをコピー",
+  "findNextPlace": "次の場所を探す",
+  "conditionPending": "{label}、まだ探していません",
+  "@conditionPending": {
+    "placeholders": {
+      "label": {
+        "type": "Object"
+      }
+    }
+  },
+  "logEdited": "記録を修正しました",
+  "logEditFailed": "修正できませんでした：{value}",
+  "@logEditFailed": {
+    "placeholders": {
+      "value": {
+        "type": "Object"
+      }
+    }
+  },
+  "editLog": "記録を修正",
+  "placeNameUnavailable": "場所の名前を表示できません",
+  "comment": "ひとこと",
+  "saving": "保存しています…",
+  "save": "保存",
+  "place": "場所",
+  "openMapsFailed": "Google マップを開けませんでした",
+  "dateTimeFull": "{year}年{month}月{day}日 {hour}:{value}",
+  "@dateTimeFull": {
+    "placeholders": {
+      "year": {
+        "type": "Object"
+      },
+      "month": {
+        "type": "Object"
+      },
+      "day": {
+        "type": "Object"
+      },
+      "hour": {
+        "type": "Object"
+      },
+      "value": {
+        "type": "Object"
+      }
+    }
+  },
+  "placeNameLimitReached": "今日の名前の読み込みの上限に達したため、名前を出せませんでした。Google マップでは開けます",
+  "noComment": "ひとことはありません",
+  "myLog": "自分の記録",
+  "anonymousTraveler": "名前のない旅人",
+  "visitorOrder": "{n} 人目の訪問者",
+  "@visitorOrder": {
+    "placeholders": {
+      "n": {
+        "type": "Object"
+      }
+    }
+  },
+  "openInGoogleMaps": "Google マップで開く",
+  "findAlternatives": "代わりを探す",
+  "idleTitle": "このあたりの穴場を探す",
+  "idleMessage": "地図を動かして、探す場所を決めましょう",
+  "findAlternativesFor": "「{query}」の代わりを探す",
+  "@findAlternativesFor": {
+    "placeholders": {
+      "query": {
+        "type": "Object"
+      }
+    }
+  },
+  "searchThisArea": "このエリアを探す",
+  "searchNearby": "近くを探す",
+  "exploreFar": "遠くを調べる",
+  "farRegion": "遠くの地域",
+  "nearCurrentLocation": "現在地の近く",
+  "nearMapCenter": "地図の中心の近く",
+  "searchNearbyNoLocation": "現在地が分からないため、地図の中心の近くを探します",
+  "searchNearbyLocationFailed": "現在地を測定できなかったため、地図の中心の近くを探します",
+  "movedToMockPlace": "ダミーデータの地点へ移動しました",
+  "resultCount": "穴場 {count} 件",
+  "@resultCount": {
+    "placeholders": {
+      "count": {
+        "type": "Object"
+      }
+    }
+  },
+  "searching": "探しています",
+  "results": "結果",
+  "collapseList": "一覧を畳む",
+  "expandList": "一覧を開く",
+  "searchWithConditions": "この条件で探す",
+  "assistantName": "Geminiちゃん",
+  "locationServiceOff": "端末の位置情報がオフです",
+  "locationDenied": "位置情報が許可されていません",
+  "openSettings": "設定を開く",
+  "locationFailed": "現在地を測定できませんでした",
+  "locationDeniedBrowser": "ブラウザで位置情報が許可されていません。アドレスバーの左のマークから許可できます",
+  "goToMyLocation": "現在地へ移動",
+  "searchPlaceHint": "場所を検索",
+  "search": "検索",
+  "clearSearch": "検索を消す",
+  "sortBalanced": "おすすめ順",
+  "sortBalancedDescription": "知られていなさ・近さ・評判のよさで並べる",
+  "sortObscure": "穴場順",
+  "sortObscureDescription": "口コミの少ない、知られていない場所から",
+  "sortNear": "近い順",
+  "sortNearDescription": "今いる場所（探した地点）から近い順",
+  "currentLocation": "現在地",
+  "mapCenter": "地図の中心",
+  "searchingNearby": "周辺の場所を探しています",
+  "notFound": "見つかりませんでした",
+  "widenRange": "範囲を広げる",
+  "noPlacesForPopularity": "この人気度の場所はありません",
+  "showFamousPlaces": "有名な場所も見る",
+  "staleConditions": "条件を変更しました。前の条件の結果を表示しています",
+  "staleMoved": "地図を動かしました。前の条件の結果を表示しています",
+  "searchAgain": "再検索する",
+  "popularityHelp": "左ほど知られていない場所、右ほど有名な場所です",
+  "radiusWide": "{value}（広い範囲）",
+  "@radiusWide": {
+    "placeholders": {
+      "value": {
+        "type": "Object"
+      }
+    }
+  },
+  "radiusLabel": "半径 {value}",
+  "@radiusLabel": {
+    "placeholders": {
+      "value": {
+        "type": "Object"
+      }
+    }
+  },
+  "popularity": "人気度",
+  "popularityLabel": "人気度：{value}",
+  "@popularityLabel": {
+    "placeholders": {
+      "value": {
+        "type": "Object"
+      }
+    }
+  },
+  "favorites": "お気に入り",
+  "popularityRange": "{lo}〜{hi}",
+  "@popularityRange": {
+    "placeholders": {
+      "lo": {
+        "type": "Object"
+      },
+      "hi": {
+        "type": "Object"
+      }
+    }
+  },
+  "appliedOnSearch": "再検索して反映",
+  "tabTimeline": "タイムライン",
+  "nearby": "みんな",
+  "noLogsYet": "まだ記録がありません",
+  "publicToggleToPrivate": "公開中です。押すと非公開に",
+  "publicToggleToPublic": "非公開です。押すと公開されます",
+  "unsent": "未送信",
+  "reported": "報告しました",
+  "timelineAreaNearby": "周辺",
+  "timelineAreaNationwide": "全国の新着",
+  "timelineNationwideNote": "全国で公開された口コミを、新しい順に見ています",
+  "timelineToday": "今日",
+  "timelineYesterday": "昨日",
+  "timelineDate": "{month}月{day}日（{weekday, select, 1{月} 2{火} 3{水} 4{木} 5{金} 6{土} other{日}}）",
+  "@timelineDate": {
+    "placeholders": {
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      },
+      "weekday": {
+        "type": "String"
+      }
+    }
+  },
+  "timelineDateWithYear": "{year}年{month}月{day}日（{weekday, select, 1{月} 2{火} 3{水} 4{木} 5{金} 6{土} other{日}}）",
+  "@timelineDateWithYear": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      },
+      "weekday": {
+        "type": "String"
+      }
+    }
+  },
+  "noNearbyLogs": "この辺りで公開された記録はまだありません",
+  "reportLog": "この記録を報告",
+  "author": "投稿者",
+  "visitorOrderShort": "{order} 人目",
+  "@visitorOrderShort": {
+    "placeholders": {
+      "order": {
+        "type": "Object"
+      }
+    }
+  },
+  "howWasIt": "行ってみてどうでしたか？",
+  "visibilityPrivate": "非公開",
+  "visibilityPublic": "一般公開",
+  "record": "記録する",
+  "stampPending": "送信待ち",
+  "tabMap": "地図",
+  "tabAchievements": "実績",
+  "ratingSummaryLabel": "★{value}、{count}件の評価",
+  "@ratingSummaryLabel": {
+    "placeholders": {
+      "value": {
+        "type": "Object"
+      },
+      "count": {
+        "type": "Object"
+      }
+    }
+  },
+  "ratingCount": "（{count}件）",
+  "@ratingCount": {
+    "placeholders": {
+      "count": {
+        "type": "Object"
+      }
+    }
+  },
+  "noFavoritesYet": "お気に入りはまだありません",
+  "noFavoritesMessage": "場所の詳細や一覧のハートを押すとここにまとまります。",
+  "placeNameLoadFailed": "場所の名前を読み込めません",
+  "placeMaybeClosed": "閉業したか、通信できなかった可能性があります",
+  "assistantPromptQuiet": "近くの静かな穴場を教えて",
+  "assistantPromptCafe": "落ち着けるカフェはある？",
+  "assistantPromptView": "景色のいい穴場",
+  "assistantPromptNightView": "夜景がきれいなところ",
+  "assistantPromptOtherGenre": "ほかのジャンルだと？",
+  "assistantPromptWorship": "寺社に絞って",
+  "assistantPromptPark": "公園でのんびりしたい",
+  "assistantGreeting": "どんな場所を探しますか？地図の中心のまわりから、まだあまり知られていない場所を選びます。",
+  "assistantSubtitle": "Gemini が穴場探しをお手伝いします",
+  "assistantSimpleMode": "デモモードで答えています",
+  "assistantRestart": "最初から",
+  "assistantThinking": "考えています",
+  "assistantThinkingEllipsis": "考えています…",
+  "assistantShowOnMap": "おすすめを地図に出す",
+  "assistantTargetsTitle": "見つかった場所",
+  "assistantHiddenNearbyTitle": "そばの穴場",
+  "assistantTargetReason": "探していた場所です",
+  "assistantMoveTo": "{name}へ移動",
+  "@assistantMoveTo": {
+    "placeholders": {
+      "name": {
+        "type": "Object"
+      }
+    }
+  },
+  "assistantSearchHere": "地図でこのあたりを探す",
+  "assistantExploreWide": "{name}を広い範囲で探す",
+  "@assistantExploreWide": {
+    "placeholders": {
+      "name": {
+        "type": "Object"
+      }
+    }
+  },
+  "assistantMoreAlternatives": "代わりをもっと見る",
+  "assistantInputHint": "Geminiちゃんに話しかける",
+  "send": "送る",
+  "achievementUnlockedShort": "解除！",
+  "achievementPromoted": "{label}に昇格！",
+  "@achievementPromoted": {
+    "placeholders": {
+      "label": {
+        "type": "Object"
+      }
+    }
+  },
+  "achievementTierEarned": "{label}を獲得！",
+  "@achievementTierEarned": {
+    "placeholders": {
+      "label": {
+        "type": "Object"
+      }
+    }
+  },
+  "achievementTierShare": "{value}は全体の {p}",
+  "@achievementTierShare": {
+    "placeholders": {
+      "value": {
+        "type": "Object"
+      },
+      "p": {
+        "type": "Object"
+      }
+    }
+  },
+  "achievementShare": "全体の {p} が解除",
+  "@achievementShare": {
+    "placeholders": {
+      "p": {
+        "type": "Object"
+      }
+    }
+  },
+  "hiddenTitle": "？？？",
+  "secret": "シークレット",
+  "achievementHint": "ヒント：{hint}",
+  "@achievementHint": {
+    "placeholders": {
+      "hint": {
+        "type": "Object"
+      }
+    }
+  },
+  "achievementUnlockedOn": "{value} に解除",
+  "@achievementUnlockedOn": {
+    "placeholders": {
+      "value": {
+        "type": "Object"
+      }
+    }
+  },
+  "achievementUnlockedAt": "{value} に「{place}」で解除",
+  "@achievementUnlockedAt": {
+    "placeholders": {
+      "value": {
+        "type": "Object"
+      },
+      "place": {
+        "type": "Object"
+      }
+    }
+  },
+  "achievementSharePercent": "全体の {value}",
+  "@achievementSharePercent": {
+    "placeholders": {
+      "value": {
+        "type": "Object"
+      }
+    }
+  },
+  "achievementNextTier": "{value}まであと {value2}",
+  "@achievementNextTier": {
+    "placeholders": {
+      "value": {
+        "type": "Object"
+      },
+      "value2": {
+        "type": "Object"
+      }
+    }
+  },
+  "achievementRemaining": "あと {value}",
+  "@achievementRemaining": {
+    "placeholders": {
+      "value": {
+        "type": "Object"
+      }
+    }
+  },
+  "achievementCongrats": "やったね",
+  "tierBronze": "ブロンズ",
+  "tierSilver": "シルバー",
+  "tierGold": "ゴールド",
+  "rarityCommon": "ふつう",
+  "rarityRare": "レア",
+  "rarityEpic": "すごくレア",
+  "rarityLegend": "伝説",
+  "achFirstStepTitle": "はじめの一歩",
+  "achFirstStepDescription": "思い出ログを1件残す",
+  "achFirstStepDetail": "すべてはここから。知られていない場所へ行き、思い出を1件残しましょう。",
+  "achPioneerTitle": "開拓者",
+  "achPioneerDescription": "'{'n'}'か所で1人目の訪問者になる",
+  "achPioneerDetail": "ウラミチで誰もチェックインしていない場所に、最初に足跡を残しました。",
+  "achVeteranTitle": "古参の風格",
+  "achVeteranDescription": "10人目までの訪問者として'{'n'}'か所を記録する",
+  "achVeteranDetail": "流行る前から知っていた。そう言える場所を持っています。",
+  "achHonorableMissTitle": "名誉のハズレ",
+  "achHonorableMissDescription": "★1か★2の記録を1件残す",
+  "achHonorableMissDetail": "ハズレも立派な開拓です。誰かが同じ道で迷わずに済みます。",
+  "achConnoisseurTitle": "目利き",
+  "achConnoisseurDescription": "★4以上の記録を'{'n'}'件残す",
+  "achConnoisseurDetail": "良い場所を見つける目を持っています。",
+  "achPerfectViewTitle": "満点の景色",
+  "achPerfectViewDescription": "★5の記録を'{'n'}'件残す",
+  "achPerfectViewDetail": "心から「最高！」と言える場所に何度も出会いました。",
+  "achWalkTitle": "ウラミチ散歩",
+  "achWalkDescription": "'{'n'}'か所を記録する（同じ場所は1回）",
+  "achWalkDetail": "気の向くままに歩いて、地図の余白をあなたの記録が埋めていきます。",
+  "achRegularTitle": "ウラミチ常連",
+  "achRegularDescription": "思い出ログを'{'n'}'件残す",
+  "achRegularDetail": "記録を重ねるほど、街の見え方が変わってきます。ゴールドまで来れば、あなた自身がウラミチです。",
+  "achConsistentTitle": "三日坊主じゃない",
+  "achConsistentDescription": "'{'n'}'日に分けて記録する",
+  "achConsistentDetail": "1日だけの思いつきではありません。続けて歩いています。",
+  "achCommenterTitle": "ひとこと名人",
+  "achCommenterDescription": "ひとことを添えて'{'n'}'件記録する",
+  "achCommenterDetail": "短い言葉が、次に行く誰かの道しるべになります。",
+  "achStorytellerTitle": "語り部",
+  "achStorytellerDescription": "記録を'{'n'}'件タイムラインに公開する",
+  "achStorytellerDetail": "あなたの発見が、周りのみんなのタイムラインに届いています。",
+  "achSoCloseTitle": "惜しい！",
+  "achSoCloseDescription": "その場所の2人目の訪問者になる",
+  "achSoCloseDetail": "あと一歩で開拓者でした。でも2人目も十分に古参です。",
+  "achSoCloseHint": "あと少しで一番乗り……",
+  "achRoundNumberTitle": "キリ番ゲッター",
+  "achRoundNumberDescription": "10の倍数の番目の訪問者になる",
+  "achRoundNumberDetail": "10人目、20人目……ちょうどの数字を踏みました。",
+  "achRoundNumberHint": "何人目かの数字に注目",
+  "achNightOwlTitle": "夜ふかし探検家",
+  "achNightOwlDescription": "0時から4時の間に記録する",
+  "achNightOwlDetail": "みんなが眠っている時間にも、ウラミチは開いています。",
+  "achNightOwlHint": "月が見ている時間に",
+  "achEarlyBirdTitle": "朝活の達人",
+  "achEarlyBirdDescription": "5時から7時の間に記録する",
+  "achEarlyBirdDetail": "人の少ない朝の街は、いつもと違う顔を見せます。",
+  "achEarlyBirdHint": "早起きは三文の徳",
+  "achHopperTitle": "はしご旅",
+  "achHopperDescription": "1日に3か所を記録する",
+  "achHopperDetail": "次から次へ。今日は寄り道の多い一日でした。",
+  "achHopperHint": "一日に、いくつ回れる？",
+  "achWeekendTitle": "週末冒険家",
+  "achWeekendDescription": "土日に5件記録する",
+  "achWeekendDetail": "休みの日は、知らない場所へ。",
+  "achWeekendHint": "休みの日の過ごし方",
+  "achTalkativeTitle": "語りすぎ",
+  "achTalkativeDescription": "100文字以上のひとことを残す",
+  "achTalkativeDetail": "ひとことのはずが、ひとことでは収まりませんでした。",
+  "achTalkativeHint": "ひとこと、とは",
+  "achRevisitTitle": "また来ちゃった",
+  "achRevisitDescription": "同じ場所を3回記録する",
+  "achRevisitDetail": "ここはもう、あなたの行きつけです。",
+  "achRevisitHint": "気に入った場所はありますか",
+  "almostUnlocked": "もう少しで解除",
+  "noUnlockedAchievements": "まだ解除した実績はありません。チェックインして思い出ログを残してみましょう",
+  "allAchievementsUnlocked": "すべての実績を解除しました！",
+  "secretAchievementCount": "シークレット実績　{secretUnlocked} / {secretTotal}",
+  "@secretAchievementCount": {
+    "placeholders": {
+      "secretUnlocked": {
+        "type": "Object"
+      },
+      "secretTotal": {
+        "type": "Object"
+      }
+    }
+  },
+  "secretAchievementHelp": "条件は解除するまでわかりません。タップするとヒントが見られます。",
+  "filterAll": "すべて",
+  "filterUnlocked": "解除済み",
+  "filterLocked": "未解除",
+  "almostTileLabel": "{title}、あと{left}",
+  "@almostTileLabel": {
+    "placeholders": {
+      "title": {
+        "type": "Object"
+      },
+      "left": {
+        "type": "Object"
+      }
+    }
+  },
+  "unlockedOfTotal": "/ {total} 解除",
+  "@unlockedOfTotal": {
+    "placeholders": {
+      "total": {
+        "type": "Object"
+      }
+    }
+  },
+  "achievementsEmptyHelp": "チェックインして思い出ログを残すと、実績が増えていきます。",
+  "achievementTileUnlocked": "{title}、解除済み",
+  "@achievementTileUnlocked": {
+    "placeholders": {
+      "title": {
+        "type": "Object"
+      }
+    }
+  },
+  "achievementTileUnlockedTier": "{title}、解除済み、{tier}",
+  "@achievementTileUnlockedTier": {
+    "placeholders": {
+      "title": {
+        "type": "Object"
+      },
+      "tier": {
+        "type": "Object"
+      }
+    }
+  },
+  "achievementTileLocked": "{title}、未解除",
+  "@achievementTileLocked": {
+    "placeholders": {
+      "title": {
+        "type": "Object"
+      }
+    }
+  },
+  "achievementAllTiersOn": "{year}/{month}/{day} にすべての段階を達成",
+  "@achievementAllTiersOn": {
+    "placeholders": {
+      "year": {
+        "type": "Object"
+      },
+      "month": {
+        "type": "Object"
+      },
+      "day": {
+        "type": "Object"
+      }
+    }
+  },
+  "achievementUnlockedOnDate": "{year}/{month}/{day} に解除",
+  "@achievementUnlockedOnDate": {
+    "placeholders": {
+      "year": {
+        "type": "Object"
+      },
+      "month": {
+        "type": "Object"
+      },
+      "day": {
+        "type": "Object"
+      }
+    }
+  },
+  "directions": "道順",
+  "reviews": "レビュー",
+  "uramichiVisitors": "ウラミチで来た人",
+  "distance": "距離",
+  "distanceFrom": "{name}から",
+  "@distanceFrom": {
+    "placeholders": {
+      "name": {
+        "type": "Object"
+      }
+    }
+  },
+  "iWasHere": "ここに来た！",
+  "start": "はじめる",
+  "reload": "もう一度読み込む",
+  "logout": "ログアウト",
+  "loginPrivacy": "他のユーザーには、アプリ内で設定したニックネームとアイコン、一般公開に設定した記録のみが表示されます",
+  "appTagline": "逆張り観光アプリ",
+  "appLead": "有名スポットの代わりに、まだ知られていない場所へ。",
+  "loginFeatureSearch": "口コミの少ない穴場を地図から探す",
+  "loginFeatureStamp": "行った場所でチェックインスタンプを集める",
+  "loginFeatureBadge": "歩いた記録が実績のバッジに",
+  "loggingIn": "ログインしています",
+  "loginWithGoogle": "Google でログイン",
+  "errorProfileSave": "プロフィールを保存できませんでした。通信状況を確認して、もう一度お試しください",
+  "profile": "プロフィール",
+  "nickname": "ニックネーム",
+  "nicknameHint": "例：路地裏の旅人",
+  "nicknameHelper": "タイムラインに表示されます",
+  "nicknameTooLong": "{nicknameMaxLength}文字までです",
+  "@nicknameTooLong": {
+    "placeholders": {
+      "nicknameMaxLength": {
+        "type": "Object"
+      }
+    }
+  },
+  "icon": "アイコン",
+  "regionPickerLead": "まだあまり知られていない地域を、のんびり歩いてみませんか？",
+  "regionSearchHint": "地名で調べる（例：飛騨高山）",
+  "regionSearch": "調べる",
+  "regionPairsHeading": "次の旅の候補に",
+  "regionAreasHeading": "地方から選ぶ",
+  "regionPairLabel": "{name}に行ったことがあるなら",
+  "@regionPairLabel": {
+    "placeholders": {
+      "name": {
+        "type": "Object"
+      }
+    }
+  },
+  "settings": "設定",
+  "settingsAppearance": "見た目",
+  "settingsTheme": "テーマ",
+  "themeSystem": "自動",
+  "themeLight": "ライト",
+  "themeDark": "ダーク",
+  "settingsKeyColor": "キーカラー",
+  "settingsMotionSound": "動きと音",
+  "settingsHaptics": "振動（ハプティクス）",
+  "settingsHapticsDescription": "★を付けたときやチェックインしたときなどに、端末を振動させる",
+  "settingsSound": "効果音",
+  "settingsSoundDescription": "チェックインや実績の解除のときに音を鳴らす。マナーモードのときは鳴らさない",
+  "settingsData": "データ",
+  "settingsDemoData": "デモデータで動かす",
+  "settingsEndpoint": "接続先",
+  "none": "なし",
+  "colorWallpaper": "壁紙から自動設定",
+  "colorOther": "ほかの色",
+  "hue": "色相",
+  "brightness": "明るさ",
+  "useThisColor": "この色にする",
+  "searchingAlternatives": "「{query}」の代わりを探しています",
+  "@searchingAlternatives": {
+    "placeholders": {
+      "query": {
+        "type": "Object"
+      }
+    }
+  },
+  "originNotFound": "「{query}」が見つかりませんでした",
+  "@originNotFound": {
+    "placeholders": {
+      "query": {
+        "type": "Object"
+      }
+    }
+  },
+  "searchAnotherName": "別の名前で探す",
+  "alternativesLoadFailed": "候補を読み込めませんでした",
+  "noAlternativesNearby": "近くに代わりの場所が見つかりませんでした",
+  "alternativesTitle": "代わりに行くなら\nここ",
+  "famousSpotHint": "有名スポットの名前",
+  "clearInput": "入力を消す",
+  "sameGenre": "同じ{label}",
+  "@sameGenre": {
+    "placeholders": {
+      "label": {
+        "type": "Object"
+      }
+    }
+  },
+  "reviewRatio": "レビュー 1/{value}",
+  "@reviewRatio": {
+    "placeholders": {
+      "value": {
+        "type": "Object"
+      }
+    }
+  },
+  "onlyZeroReviews": "レビュー 0件の場所だけ",
+  "reviewRatioOrLess": "レビュー 1/{value} 以下",
+  "@reviewRatioOrLess": {
+    "placeholders": {
+      "value": {
+        "type": "Object"
+      }
+    }
+  },
+  "otherCandidates": "ほかの候補",
+  "candidateCount": "  {count}件",
+  "@candidateCount": {
+    "placeholders": {
+      "count": {
+        "type": "Object"
+      }
+    }
+  },
+  "here": "ここ",
+  "countLabel": "{value}件",
+  "@countLabel": {
+    "placeholders": {
+      "value": {
+        "type": "Object"
+      }
+    }
+  },
+  "badgePioneer": "開拓者バッジ（最初の訪問者）",
+  "badgeVeteran": "古参バッジ（{order} 人目）",
+  "@badgeVeteran": {
+    "placeholders": {
+      "order": {
+        "type": "Object"
+      }
+    }
+  },
+  "badgePioneerShort": "開拓者",
+  "badgeHonorableMiss": "名誉のハズレ",
+  "badgeRegular": "ウラミチ常連",
+  "reloadLocation": "現在地を読み直す",
+  "unsentCount": "未送信 {pending} 件",
+  "@unsentCount": {
+    "placeholders": {
+      "pending": {
+        "type": "Object"
+      }
+    }
+  },
+  "checkingLocation": "現在地を確認しています",
+  "searchingSpots": "近くのスポットを探しています",
+  "locationCheckFailed": "現在地を確認できませんでした",
+  "findOnMap": "地図で探す",
+  "noSpotsNearby": "近くにスポットがありません",
+  "searchAgainShort": "もう一度探す",
+  "offline": "通信できません",
+  "offlineRecordHelp": "今の場所を記録すると、通信できるようになってからスポットを選択できます",
+  "recordHere": "今の場所を記録",
+  "spotLimitReached": "今日はこれ以上、近くのスポットを探せません",
+  "spotLimitHelp": "地図で場所を探して、詳細の画面からチェックインできます。明日になると、また近くを探せます",
+  "recordedHere": "今の場所を記録しました",
+  "allowLocation": "位置情報を許可",
+  "distanceOffline": "{value} m・オフライン",
+  "@distanceOffline": {
+    "placeholders": {
+      "value": {
+        "type": "Object"
+      }
+    }
+  },
+  "details": "詳細",
+  "placeDetailsTooltip": "{name}の詳細",
+  "@placeDetailsTooltip": {
+    "placeholders": {
+      "name": {
+        "type": "Object"
+      }
+    }
+  },
+  "possibleVisits": "行ったかもしれない場所",
+  "skipThisTime": "今回はチェックインしない",
+  "neverSuggestPlace": "この場所を今後提案しない",
+  "positionRecorded": "位置を記録しました",
+  "searchingSpotsShort": "スポットを探しています…",
+  "spotsLoadFailed": "スポットを読み込めませんでした",
+  "skipCheckin": "チェックインしない",
+  "findSpots": "スポットを探す",
+  "changePlace": "場所を変更",
+  "timeRange": "{start}〜{value}",
+  "@timeRange": {
+    "placeholders": {
+      "start": {
+        "type": "Object"
+      },
+      "value": {
+        "type": "Object"
+      }
+    }
+  },
+  "recordStaysTitle": "滞在した場所を記録しますか？",
+  "doNotRecord": "記録しない",
+  "recordStays": "滞在した場所を記録",
+  "mapPinLabel": "{name}、{value}、レビュー {value2}件",
+  "@mapPinLabel": {
+    "placeholders": {
+      "name": {
+        "type": "Object"
+      },
+      "value": {
+        "type": "Object"
+      },
+      "value2": {
+        "type": "Object"
+      }
+    }
+  },
+  "mapPinLabelNoReviews": "{name}、{value}",
+  "@mapPinLabelNoReviews": {
+    "placeholders": {
+      "name": {
+        "type": "Object"
+      },
+      "value": {
+        "type": "Object"
+      }
+    }
+  },
+  "recentUnlock": "最近の解除：{title}（{month}/{day}）",
+  "@recentUnlock": {
+    "placeholders": {
+      "title": {
+        "type": "Object"
+      },
+      "month": {
+        "type": "Object"
+      },
+      "day": {
+        "type": "Object"
+      }
+    }
+  },
+  "recordStaysMessage": "同じ場所に {inMinutes} 分以上いる場合に、この端末に位置と時刻を記録し、あとからチェックインすることができます。アプリを閉じていても記録するために、アプリの位置情報の権限では「常に許可」を選んでください。スポットを探すときのみ、位置をサーバーに送信します。",
+  "@recordStaysMessage": {
+    "placeholders": {
+      "inMinutes": {
+        "type": "Object"
+      }
+    }
+  },
+  "distanceToPlace": "この場所まで {value} あります。{value2} 以内でチェックインできます",
+  "@distanceToPlace": {
+    "placeholders": {
+      "value": {
+        "type": "Object"
+      },
+      "value2": {
+        "type": "Object"
+      }
+    }
+  },
+  "settingsDemoDataDescription": "オンのあいだは架空の場所だけを使い、サーバーにも Google にも問い合わせません。オフのときはデモデータを使いません",
+  "photoLabel": "記録の写真",
+  "photoUnavailable": "写真を読み込めません",
+  "photoUnsupported": "JPEG、PNG、WebP の写真を選んでください",
+  "photoTooLarge": "写真が大きすぎます。ほかの写真を選んでください",
+  "photoPickFailed": "写真を選べませんでした",
+  "photoTake": "写真を撮る",
+  "photoChoose": "写真を選ぶ",
+  "photoAdd": "写真を添える",
+  "photoRemove": "写真を外す",
+  "photoUploadFailed": "写真を送れなかったので、写真なしで残しました",
+  "reactionWant": "行ってみたい",
+  "reactionHelpful": "参考になった",
+  "reactionFailed": "反応を送れませんでした。もう一度お試しください",
+  "reactionCount": "{label} {count}件",
+  "@reactionCount": {
+    "placeholders": {
+      "label": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "stampBookTitle": "スタンプ帳（{count}個）",
+  "@stampBookTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "stampBookAll": "すべて見る",
+  "stampBookEmpty": "チェックインすると、場所の種類ごとのスタンプがここにたまります",
+  "stampBookDate": "{month}/{day}",
+  "@stampBookDate": {
+    "placeholders": {
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "stampBookMonth": "{year}年{month}月",
+  "@stampBookMonth": {
+    "placeholders": {
+      "year": {
+        "type": "int"
+      },
+      "month": {
+        "type": "int"
+      }
+    }
+  },
+  "stampBookKindCount": "{kind} {count}",
+  "@stampBookKindCount": {
+    "placeholders": {
+      "kind": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "stampBookStampLabel": "{place}のスタンプ（{month}月{day}日）",
+  "@stampBookStampLabel": {
+    "placeholders": {
+      "place": {
+        "type": "String"
+      },
+      "month": {
+        "type": "int"
+      },
+      "day": {
+        "type": "int"
+      }
+    }
+  },
+  "notifyStayTitle": "ここで少しゆっくりしましたか？",
+  "notifyStayBody": "アプリを開くと、いまいる場所にチェックインしてスタンプを押せます",
+  "notifyStayChannel": "滞在の知らせ",
+  "notifyReactionsBody": "あなたの口コミに新しい反応が{count}件あります",
+  "@notifyReactionsBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "notifyReactionsOpen": "見る",
+  "settingsNotifications": "通知",
+  "settingsNotificationsDescription": "同じ場所にしばらくいたときと、口コミに反応があったときに知らせます",
+  "settingsNotificationsWeb": "Web 版では、口コミへの反応をアプリを開いたときに画面の中で知らせます",
+  "notificationsDenied": "通知が許可されていません。端末の設定から許可できます",
+  "pressToStamp": "押してスタンプ",
+  "pressToStampAt": "{place}で押してスタンプ",
+  "@pressToStampAt": {
+    "placeholders": {
+      "place": {
+        "type": "String"
+      }
+    }
+  },
+  "pressStampShort": "押す",
+  "pressLater": "後から押す",
+  "hereQuestion": "いま、ここにいますか？",
+  "whereAreYou": "いまいる場所を選んでください",
+  "otherPlaces": "ちがう場所？（近くにあと{count}か所）",
+  "@otherPlaces": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "findAroundOnMap": "地図で周りを探す",
+  "journeyTitle": "今日の旅",
+  "journeySummary": "スタンプ {count} 個",
+  "@journeySummary": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "journeyEmpty": "今日はまだスタンプがありません。着いた場所で、上のスタンプを押してみましょう",
+  "journeyStay": "押し忘れ？ ここに{minutes}分いました",
+  "@journeyStay": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "journeyStayShort": "押し忘れ？ ここにいました",
+  "mapHereTitle": "いま「{place}」の近くにいます",
+  "@mapHereTitle": {
+    "placeholders": {
+      "place": {
+        "type": "String"
+      }
+    }
+  },
+  "mapHereSubtitle": "押すとスタンプを押して記録できます",
+  "detailStampTitle": "ここで押してスタンプ",
+  "detailStampHelp": "{range}以内に着いたら押せます",
+  "@detailStampHelp": {
+    "placeholders": {
+      "range": {
+        "type": "String"
+      }
+    }
+  },
+  "typeAndDistance": "{type}・{distance}",
+  "@typeAndDistance": {
+    "placeholders": {
+      "type": {
+        "type": "String"
+      },
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "alreadyStampedToday": "今日はここでスタンプを押しました",
+  "googleMapsAttributionLabel": "場所の情報の出典：Google マップ",
+  "googleMapsNoticeLead": "ウラミチは Google マップの機能と内容を使っています。使うと、",
+  "googleMapsTermsLink": "Google マップ／Google Earth 追加利用規約",
+  "googleMapsNoticeAnd": "と",
+  "googlePrivacyLink": "Google プライバシー ポリシー",
+  "googleMapsNoticeTail": "に同意したものとみなされます。",
+  "settingsAbout": "このアプリについて",
+  "shareEntryMine": "「{placeName}」に行きました！",
+  "@shareEntryMine": {
+    "placeholders": {
+      "placeName": {
+        "type": "String"
+      }
+    }
+  },
+  "shareEntryOthers": "ウラミチで見つけた「{placeName}」の口コミ",
+  "@shareEntryOthers": {
+    "placeholders": {
+      "placeName": {
+        "type": "String"
+      }
+    }
+  },
+  "shareOtherApps": "ほかのアプリ",
+  "shareAction": "シェア",
+  "shareSheetTitle": "この記録をシェア",
+  "shareSheetTitleOthers": "この口コミをシェア",
+  "shareCardFooter": "#ウラミチ",
+  "reportSheetTitle": "この口コミを報告",
+  "reportSheetHelp": "報告したことは投稿した人に伝わりません。報告した口コミは、あなたのタイムラインからすぐに消えます。3人から報告されると、みんなのタイムラインからも見えなくなり、運営が内容を確かめます。",
+  "reportReasonInappropriate": "不快な・攻撃的な内容",
+  "reportReasonUnrelated": "場所と関係のない内容",
+  "reportReasonPersonal": "個人情報が書かれている",
+  "reportReasonSpam": "宣伝・スパム",
+  "reportReasonOther": "そのほか",
+  "reportNoteHint": "くわしく（任意）",
+  "reportSend": "報告する",
+  "stampBookTotalUnit": "個のスタンプ",
+  "stampBookKinds": "集めた種類 {got} / {all}",
+  "@stampBookKinds": {
+    "placeholders": {
+      "got": {
+        "type": "int"
+      },
+      "all": {
+        "type": "int"
+      }
+    }
+  },
+  "stampBookMonthCount": "{count}個",
+  "@stampBookMonthCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "achievementsViewAchievements": "実績",
+  "achievementsViewStamps": "スタンプ帳"
+}

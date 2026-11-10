@@ -1,0 +1,245 @@
+{
+  "source": "mock",
+  "places": [
+    {
+      "id": "mock_01",
+      "name": "坂の上の小さな祠",
+      "lat": 34.697,
+      "lng": 135.192,
+      "address": "（架空の住所）",
+      "primaryType": "shinto_shrine",
+      "types": [
+        "shinto_shrine",
+        "place_of_worship",
+        "point_of_interest"
+      ],
+      "userRatingCount": 0,
+      "obscurity": 100,
+      "title": "untrodden"
+    },
+    {
+      "id": "mock_02",
+      "name": "路地裏の古書喫茶",
+      "lat": 34.691,
+      "lng": 135.193,
+      "address": "（架空の住所）",
+      "primaryType": "cafe",
+      "types": [
+        "cafe",
+        "book_store",
+        "food",
+        "point_of_interest"
+      ],
+      "userRatingCount": 3,
+      "rating": 4.8,
+      "obscurity": 84,
+      "title": "untrodden"
+    },
+    {
+      "id": "mock_03",
+      "name": "旧水道の見晴らし台",
+      "lat": 34.699,
+      "lng": 135.186,
+      "address": "（架空の住所）",
+      "primaryType": "park",
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest"
+      ],
+      "userRatingCount": 7,
+      "rating": 4.5,
+      "obscurity": 76,
+      "title": "untrodden"
+    },
+    {
+      "id": "mock_04",
+      "name": "石垣の残る小公園",
+      "lat": 34.69,
+      "lng": 135.185,
+      "address": "（架空の住所）",
+      "primaryType": "park",
+      "types": [
+        "park",
+        "point_of_interest"
+      ],
+      "userRatingCount": 18,
+      "rating": 4.1,
+      "obscurity": 65,
+      "title": "hidden"
+    },
+    {
+      "id": "mock_05",
+      "name": "町工場の資料室",
+      "lat": 34.694,
+      "lng": 135.197,
+      "address": "（架空の住所）",
+      "primaryType": "museum",
+      "types": [
+        "museum",
+        "tourist_attraction",
+        "point_of_interest"
+      ],
+      "userRatingCount": 26,
+      "rating": 4.6,
+      "obscurity": 61,
+      "title": "hidden"
+    },
+    {
+      "id": "mock_06",
+      "name": "山すその寺の庭",
+      "lat": 34.7,
+      "lng": 135.195,
+      "address": "（架空の住所）",
+      "primaryType": "buddhist_temple",
+      "types": [
+        "buddhist_temple",
+        "place_of_worship",
+        "tourist_attraction"
+      ],
+      "userRatingCount": 55,
+      "rating": 4.4,
+      "obscurity": 53,
+      "title": "hidden"
+    },
+    {
+      "id": "mock_13",
+      "name": "運河沿いの小さな庭園",
+      "lat": 34.689,
+      "lng": 135.199,
+      "address": "（架空の住所）",
+      "primaryType": "garden",
+      "types": [
+        "garden",
+        "point_of_interest"
+      ],
+      "userRatingCount": 64,
+      "rating": 4.2,
+      "obscurity": 51,
+      "title": "hidden"
+    },
+    {
+      "id": "mock_07",
+      "name": "高架下のギャラリー",
+      "lat": 34.688,
+      "lng": 135.191,
+      "address": "（架空の住所）",
+      "primaryType": "art_gallery",
+      "types": [
+        "art_gallery",
+        "tourist_attraction",
+        "point_of_interest"
+      ],
+      "userRatingCount": 90,
+      "rating": 4.3,
+      "obscurity": 47,
+      "title": "hidden"
+    },
+    {
+      "id": "mock_14",
+      "name": "旧居留地の記念碑",
+      "lat": 34.69,
+      "lng": 135.203,
+      "address": "（架空の住所）",
+      "primaryType": "historical_landmark",
+      "types": [
+        "historical_landmark",
+        "tourist_attraction",
+        "point_of_interest"
+      ],
+      "userRatingCount": 180,
+      "rating": 4.1,
+      "obscurity": 39,
+      "title": "known"
+    },
+    {
+      "id": "mock_08",
+      "name": "港の見える喫茶店",
+      "lat": 34.687,
+      "lng": 135.188,
+      "address": "（架空の住所）",
+      "primaryType": "cafe",
+      "types": [
+        "cafe",
+        "food",
+        "point_of_interest"
+      ],
+      "userRatingCount": 240,
+      "rating": 4.2,
+      "obscurity": 36,
+      "title": "known"
+    },
+    {
+      "id": "mock_09",
+      "name": "異国の洋館公園",
+      "lat": 34.696,
+      "lng": 135.189,
+      "address": "（架空の住所）",
+      "primaryType": "park",
+      "types": [
+        "park",
+        "tourist_attraction",
+        "point_of_interest"
+      ],
+      "userRatingCount": 760,
+      "rating": 4.1,
+      "obscurity": 22,
+      "title": "known"
+    },
+    {
+      "id": "mock_10",
+      "name": "商店街の老舗食堂",
+      "lat": 34.692,
+      "lng": 135.187,
+      "address": "（架空の住所）",
+      "primaryType": "restaurant",
+      "types": [
+        "restaurant",
+        "food",
+        "point_of_interest"
+      ],
+      "userRatingCount": 1500,
+      "rating": 4,
+      "obscurity": 14,
+      "title": "famous"
+    },
+    {
+      "id": "mock_11",
+      "name": "海辺の大展望台",
+      "lat": 34.685,
+      "lng": 135.194,
+      "address": "（架空の住所）",
+      "primaryType": "tourist_attraction",
+      "types": [
+        "tourist_attraction",
+        "observation_deck",
+        "point_of_interest"
+      ],
+      "userRatingCount": 9800,
+      "rating": 4.3,
+      "obscurity": 0,
+      "title": "famous"
+    },
+    {
+      "id": "mock_12",
+      "name": "駅前の大きな神社",
+      "lat": 34.695,
+      "lng": 135.194,
+      "address": "（架空の住所）",
+      "primaryType": "shinto_shrine",
+      "types": [
+        "shinto_shrine",
+        "tourist_attraction",
+        "place_of_worship"
+      ],
+      "userRatingCount": 15400,
+      "rating": 4.4,
+      "obscurity": 0,
+      "title": "famous"
+    }
+  ],
+  "center": {
+    "lat": 34.693,
+    "lng": 135.19
+  }
+}
