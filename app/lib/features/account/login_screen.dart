@@ -30,6 +30,12 @@ class _LoginScreenState extends State<LoginScreen>
     duration: const Duration(milliseconds: 2200),
   );
 
+  // 文字と案内は、地図の演出の後半で下から浮かび上がらせる。描くたびに作ると、親に聞き手が溜まり続けるため1回だけ作る
+  late final CurvedAnimation _reveal = CurvedAnimation(
+    parent: _intro,
+    curve: const Interval(0.35, 1, curve: Curves.easeOutCubic),
+  );
+
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
@@ -45,6 +51,7 @@ class _LoginScreenState extends State<LoginScreen>
 
   @override
   void dispose() {
+    _reveal.dispose();
     _intro.dispose();
     super.dispose();
   }
@@ -59,11 +66,7 @@ class _LoginScreenState extends State<LoginScreen>
     final bool signingIn = state is AccountSigningIn;
     final String? error = state is AccountSignedOut ? state.error : null;
 
-    // 文字と案内は、地図の演出の後半で下から浮かび上がらせる
-    final Animation<double> reveal = CurvedAnimation(
-      parent: _intro,
-      curve: const Interval(0.35, 1, curve: Curves.easeOutCubic),
-    );
+    final Animation<double> reveal = _reveal;
 
     return Scaffold(
       backgroundColor: scheme.surfaceContainer,

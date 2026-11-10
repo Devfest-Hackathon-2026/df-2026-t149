@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:convert';
 
 import 'package:flutter_test/flutter_test.dart';
@@ -133,6 +134,23 @@ void main() {
       const Profile changed = Profile(nickname: 'たろう', icon: 'pets');
       await account.saveProfile(changed);
       expect((account.state as AccountReady).profile, changed);
+    });
+
+    test('プロフィールの保存の途中でログアウトしたら、保存が終わってもログインした状態に戻さない', () async {
+      final Completer<void> gate = Completer<void>();
+      final FakeProfileRepository profiles = FakeProfileRepository()
+        ..saveGate = gate.future;
+      final AccountController account = AccountController(
+        auth: FakeAuthGateway(current: testUser),
+        profiles: profiles,
+      );
+      await account.start();
+      expect(account.state, isA<AccountNeedsProfile>());
+      final Future<void> saving = account.saveProfile(testProfile);
+      await account.signOut();
+      gate.complete();
+      await saving;
+      expect(account.state, isA<AccountSignedOut>());
     });
 
     test('ログアウトすると、ログインを求める', () async {

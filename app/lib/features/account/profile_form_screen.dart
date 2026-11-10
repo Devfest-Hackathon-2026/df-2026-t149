@@ -59,9 +59,14 @@ class _ProfileFormScreenState extends State<ProfileFormScreen> {
     try {
       await widget.onSubmit(Profile(nickname: nickname, icon: _icon.id));
     } on ApiException catch (error) {
-      setState(() => _error = error.message);
+      // 保存している間にログアウトすると、この画面はもうない
+      if (mounted) {
+        setState(() => _error = error.message);
+      }
     } catch (_) {
-      setState(() => _error = l10n.errorProfileSave);
+      if (mounted) {
+        setState(() => _error = l10n.errorProfileSave);
+      }
     } finally {
       if (mounted) {
         setState(() => _saving = false);
@@ -83,7 +88,11 @@ class _ProfileFormScreenState extends State<ProfileFormScreen> {
               automaticallyImplyLeading: false,
               actions: <Widget>[
                 if (onSignOut != null)
-                  TextButton(onPressed: onSignOut, child: Text(l10n.logout)),
+                  // 保存している間はログアウトさせない（保存の後にログインした状態へ戻ってしまうため）
+                  TextButton(
+                    onPressed: _saving ? null : onSignOut,
+                    child: Text(l10n.logout),
+                  ),
               ],
             )
           : AppBar(title: Text(l10n.profile)),
