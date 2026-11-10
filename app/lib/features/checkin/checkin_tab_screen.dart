@@ -415,7 +415,8 @@ class _NearbyLoadedView extends StatelessWidget {
                 onSelect(id);
                 Navigator.of(sheet).pop();
               },
-              onOpenDetail: (Place p) => _openDetail(context, p),
+              // シートの context で開く。開いた画面は、広さの切り替えなどで作り直されることがある
+              onOpenDetail: (Place p) => _openDetail(sheet, p),
             ),
           ],
         ),
@@ -840,7 +841,8 @@ class _VisitCard extends StatelessWidget {
                 onSelect(id);
                 Navigator.of(sheet).pop();
               },
-              onOpenDetail: (Place p) => Navigator.of(context).push(
+              // シートの context で開く。開いたカードは、チェックインした後に一覧から消えて使えなくなることがある
+              onOpenDetail: (Place p) => Navigator.of(sheet).push(
                 MaterialPageRoute<void>(
                   builder: (BuildContext _) =>
                       PlaceDetailScreen(place: p, distanceMeters: _distance(p)),

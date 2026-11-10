@@ -63,6 +63,9 @@ class FakeProfileRepository implements ProfileRepository {
   /// 次の save で投げるエラー
   Object? saveError;
 
+  /// 設定すると、save はこれが終わるまで待つ（保存の途中の操作を試すため）
+  Future<void>? saveGate;
+
   @override
   Future<Profile?> fetch(AuthUser user) async {
     final Object? error = fetchError;
@@ -75,6 +78,7 @@ class FakeProfileRepository implements ProfileRepository {
 
   @override
   Future<Profile> save(AuthUser user, Profile profile) async {
+    await saveGate;
     final Object? error = saveError;
     if (error != null) {
       saveError = null;

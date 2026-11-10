@@ -43,6 +43,16 @@ class _StampPressButtonState extends State<StampPressButton>
     duration: const Duration(milliseconds: 1800),
   );
 
+  // 描くたびに作ると、親に聞き手が溜まり続けるため1回だけ作る
+  late final Animation<double> _scale = Tween<double>(
+    begin: 1,
+    end: 1.04,
+  ).animate(_curve);
+  late final CurvedAnimation _curve = CurvedAnimation(
+    parent: _breath,
+    curve: Curves.easeInOut,
+  );
+
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
@@ -59,6 +69,7 @@ class _StampPressButtonState extends State<StampPressButton>
 
   @override
   void dispose() {
+    _curve.dispose();
     _breath.dispose();
     super.dispose();
   }
@@ -75,10 +86,7 @@ class _StampPressButtonState extends State<StampPressButton>
       label: widget.semanticLabel,
       excludeSemantics: true,
       child: ScaleTransition(
-        scale: Tween<double>(
-          begin: 1,
-          end: 1.04,
-        ).animate(CurvedAnimation(parent: _breath, curve: Curves.easeInOut)),
+        scale: _scale,
         child: Material(
           type: MaterialType.transparency,
           child: InkWell(

@@ -1477,6 +1477,30 @@ void main() {
   });
 
   group('Geminiちゃん', () {
+    // 開いた後に地図の右下のボタンが隠れても（画面の高さが変わったときなど）、シートを描き直せる。
+    // 配布用のビルドでは「Null check operator used on a null value」になっていた
+    testWidgets('開いた後に地図のボタンが作り直されても、シートを描き直せる', (WidgetTester tester) async {
+      tester.view.physicalSize = const Size(412 * 3, 900 * 3);
+      tester.view.devicePixelRatio = 3;
+      addTearDown(tester.view.reset);
+      final _Server server = _Server(places: <Place>[_place('a')]);
+      await _pumpApp(tester, server);
+
+      await tester.tap(find.byTooltip('Geminiちゃん'));
+      await tester.pumpAndSettle();
+      expect(find.byType(AssistantSheet), findsOneWidget);
+
+      // 低い画面にすると、右下のボタンを隠す
+      tester.view.physicalSize = const Size(412 * 3, 300 * 3);
+      await tester.pumpAndSettle();
+      expect(tester.takeException(), isNull);
+      tester.view.physicalSize = const Size(412 * 3, 900 * 3);
+      await tester.pumpAndSettle();
+      expect(tester.takeException(), isNull);
+      expect(find.byType(AssistantSheet), findsOneWidget);
+      expect(find.byType(ActionChip), findsWidgets);
+    });
+
     testWidgets('話しかけると答えと理由を見せ、地図で同じ条件を探せる', (WidgetTester tester) async {
       final _Server server = _Server(places: <Place>[_place('a')]);
       await _pumpApp(tester, server);

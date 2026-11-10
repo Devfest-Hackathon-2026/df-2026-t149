@@ -149,6 +149,15 @@ class AccountController extends ChangeNotifier {
       throw StateError('ログインしていないときはプロフィールを保存できない');
     }
     final Profile saved = await _profiles.save(user, profile);
+    // 保存している間にログアウトや別の人のログインがあったら、保存した人の状態に戻さない
+    final AuthUser? now = switch (_state) {
+      AccountNeedsProfile(:final AuthUser user) => user,
+      AccountReady(:final AuthUser user) => user,
+      _ => null,
+    };
+    if (now?.uid != user.uid) {
+      return;
+    }
     _set(AccountReady(user, saved));
   }
 

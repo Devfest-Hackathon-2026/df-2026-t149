@@ -16,6 +16,7 @@ import '../../core/location/location_service.dart';
 import '../../core/maps/maps_support.dart';
 import '../../core/models/place.dart';
 import '../../core/models/place_genre.dart';
+import '../../core/data/favorites.dart';
 import '../../core/services.dart';
 import '../../core/theme.dart';
 import '../../core/widgets/map_zoom.dart';
@@ -1096,16 +1097,20 @@ class _AssistantButton extends StatelessWidget {
   final AssistantController assistant;
   final OpenSuggestion onOpenSuggestion;
 
-  /// Geminiちゃんに渡す利用者の状況
-  AssistantSituation _situation(BuildContext context) => AssistantSituation(
-    now: DateTime.now(),
-    onSite: controller.measuresFromUser,
-    searchedPlace: controller.searchedQuery,
-    area: controller.isWide ? controller.searchedPlaceName : null,
-    genres: controller.genres,
-    favoriteCount: Services.of(context).favorites?.count ?? 0,
-    famousNearby: _famousNearby(),
-  );
+  /// Geminiちゃんに渡す利用者の状況。
+  /// シートは開いている間に何度も描き直し、そのたびに呼ぶ。このボタンの context はそのときには
+  /// 作り直されて使えないことがあるため（画面の高さが変わって右下のボタンが隠れたときなど）、
+  /// context は受け取らず、開いたときに読んだ [favorites] を使う
+  AssistantSituation _situation(FavoritesController? favorites) =>
+      AssistantSituation(
+        now: DateTime.now(),
+        onSite: controller.measuresFromUser,
+        searchedPlace: controller.searchedQuery,
+        area: controller.isWide ? controller.searchedPlaceName : null,
+        genres: controller.genres,
+        favoriteCount: favorites?.count ?? 0,
+        famousNearby: _famousNearby(),
+      );
 
   /// 探した結果の中で、いちばん口コミの多い定番・超有名の場所
   String? _famousNearby() {
@@ -1187,17 +1192,20 @@ class _AssistantButton extends StatelessWidget {
       shape: const CircleBorder(),
       clipBehavior: Clip.antiAlias,
       child: InkWell(
-        onTap: () => showAssistantSheet(
-          context,
-          controller: assistant,
-          mapCenter: () =>
-              (controller.center.latitude, controller.center.longitude),
-          onShowOnMap: _showOnMap,
-          onOpenSuggestion: onOpenSuggestion,
-          situation: () => _situation(context),
-          onShowSuggestions: _showSuggestions,
-          onExploreWide: _exploreWide,
-        ),
+        onTap: () {
+          final FavoritesController? favorites = Services.of(context).favorites;
+          showAssistantSheet(
+            context,
+            controller: assistant,
+            mapCenter: () =>
+                (controller.center.latitude, controller.center.longitude),
+            onShowOnMap: _showOnMap,
+            onOpenSuggestion: onOpenSuggestion,
+            situation: () => _situation(favorites),
+            onShowSuggestions: _showSuggestions,
+            onExploreWide: _exploreWide,
+          );
+        },
         child: const Padding(
           padding: EdgeInsets.all(4),
           child: AssistantAvatar(size: 48),
